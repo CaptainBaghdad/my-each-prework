@@ -12,4 +12,4 @@ end
   
 end
 
-my_each() { |e| e}
+my_each(array) { |e| e}
