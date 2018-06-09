@@ -6,7 +6,7 @@ def my_each(array) # put argument(s) here
   num = num +1
  
   
-end 
+  end 
 
   return array
   
