@@ -1,15 +1,15 @@
-def my_each(obj) # put argument(s) here
+def my_each(array) # put argument(s) here
   # code here
   num  = 0  
-  while num < obj.length 
+  while num < array.length 
  
   num = num +1
   yield 
   
 end 
 
-  return obj
+  return array
   
 end
 
-#my_each(obj) { |e| e}
+my_each(array) { |e| e}
