@@ -4,7 +4,7 @@ def my_each(array) # put argument(s) here
   num  = 0  
   while num < array.length 
    block_given?
-  yield array[i]
+  yield array[num]
   num +=1
  
   
