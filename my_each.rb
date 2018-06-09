@@ -11,4 +11,4 @@ end
   
 end
 
-my_each { |e| puts e}
+my_each(obj) { |e| puts e}
