@@ -1,3 +1,16 @@
-def my_each # put argument(s) here
+def my_each(array) # put argument(s) here
   # code here
+ 
+  num  = 0  
+  while num < array.length 
+   block_given?
+  yield array[num]
+  num +=1
+ 
+  
+  end 
+
+  return array
+  
 end
+
