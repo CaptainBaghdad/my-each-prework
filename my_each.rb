@@ -4,10 +4,10 @@ def my_each(obj) # put argument(s) here
   while num < obj.length 
  
   num = num +1
-  
+  yield 
   
 end 
- yield obj[num]
+
   return obj
   
 end
