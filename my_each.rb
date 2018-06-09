@@ -3,9 +3,9 @@ def my_each(array) # put argument(s) here
   block_given?
   num  = 0  
   while num < array.length 
-  num +=1
-  yield 
   
+  yield array[i]
+  num +=1
  
   
   end 
