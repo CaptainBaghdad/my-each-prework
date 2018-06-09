@@ -2,7 +2,7 @@ def my_each(array) # put argument(s) here
   # code here
   num  = 0  
   while num < array.length 
-  num = num +1
+  num +=1
   yield 
   
  
