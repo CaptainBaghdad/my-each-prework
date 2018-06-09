@@ -12,4 +12,4 @@ end
   
 end
 
-my_each(obj) { |e| e}
+#my_each(obj) { |e| e}
