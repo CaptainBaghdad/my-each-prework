@@ -3,6 +3,7 @@ def my_each(obj) # put argument(s) here
   num  = 0  
   while num < obj.length 
   yield obj[num]
+  num = num +1
   
   
 end 
